@@ -417,6 +417,13 @@
 
 .footer-contact {
   display: flex;
+  align-items: center;
+}
+
+.footer-contact img {
+  margin-right: 20px;
+  width: 28px;
+  height: 28px;
 }
 
 .address {
