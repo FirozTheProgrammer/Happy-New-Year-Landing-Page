@@ -167,3 +167,61 @@
   border: none;
   margin-top: 64px;
 }
+
+/* coming soon style */
+.coming-soon-container {
+  margin: 120px 0;
+}
+
+.coming-soon-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coming-soon-text {
+  width: 390px;
+}
+
+.new-offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.coming-soon-text h3 {
+  color: #f00;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.coming-soon-text h4 {
+  color: #070211;
+  margin: 22px 0;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.coming-soon-text p {
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 22px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.text {
+  margin-bottom: 22px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.coming-soon-img {
+  padding: 20px;
+  border: #f00 15px solid;
+  border-radius: 50%;
+}
