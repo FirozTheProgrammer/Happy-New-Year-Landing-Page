@@ -225,3 +225,71 @@
   border: #f00 15px solid;
   border-radius: 50%;
 }
+
+/* holidays sale 50% */
+.holidays-container {
+  margin: 120px 0;
+}
+
+.holidays-text {
+  margin: 0 auto;
+  text-align: center;
+  width: 1060px;
+}
+
+.holidays-text h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holidays-text h4 {
+  color: #070211;
+  margin: 28px 0;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holidays-text span {
+  color: #f00;
+}
+
+.holidays-text p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 68px;
+}
+
+.holidays-img-part1 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  position: relative;
+}
+
+.holidays-img-part1 img {
+  /* flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+  overflow: hidden; */
+  width: 100%;
+  height: 100%;
+}
+
+.holidays-img-part1 img:nth-child(2) {
+  z-index: 2;
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: 180px;
+  right: 390px;
+}
+
+.holidays-img-part2 img {
+  margin-top: -135px;
+}
